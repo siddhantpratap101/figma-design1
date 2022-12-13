@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+html {
+    background-color: purple;
+}
+
+header {
+    border: 1px solid white;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    color: white;
+}
+
+#menu {
+    width: 90%;
+    margin-left: 5vw;
+    margin-top: 2vh;
+    padding-top: 2vh;
+    border-radius: 10px;
+    background-color: rgb(71, 11, 71);
+}
+
+#menu ul {
+    color: white;
+    display: flex;
+    height: 5vh;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+.main_heading {
+    color: lightblue;
+    height: 1.5em;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    word-spacing: 1rem;
+    padding-top: 3rem;
+    font-family: 'Play', sans-serif;
+
+}
+
+p {
+    color: lightblue;
+    text-align: center;
+    height: 15vh;
+    width: 70vw;
+    font-size: 2em;
+    margin-left: 15vw;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+}
+
+label {
+    color: white;
+    font-size: 2em;
+    width: 60%;
+}
+
+.section-left {
+    display: flex;
+    flex-direction: column;
+}
+
+#goal-and-resouces {
+    width: 30vw;
+    color: white;
+    background-color: darkgray;
+    border: 0;
+    height: 5vh;
+    margin: 4px;
+    border-radius: 3px;
+    padding-left: 4vw;
+}
+
+button {
+    margin-left: 25vw;
+    width: 20vw;
+    height: 5.5vh;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    background-color: rgba(47, 143, 79, 0.493);
+    align-items: center;
+    margin-bottom: 5%;
+}
