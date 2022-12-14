@@ -11,14 +11,27 @@ html {
 }
 
 header {
-    border: 1px solid white;
+    border: 0.5px solid white;
     width: 100%;
-    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 h1 {
     font-size: 2em;
-    color: white;
+    color: lightskyblue;
+}
+
+input {
+    border: 0px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: lightgray;
+}
+
+input:focus {
+    outline: none;
 }
 
 #menu {
@@ -27,7 +40,7 @@ h1 {
     margin-top: 2vh;
     padding-top: 2vh;
     border-radius: 10px;
-    background-color: rgb(71, 11, 71);
+    background-color: rgb(112, 31, 112);
 }
 
 #menu ul {
